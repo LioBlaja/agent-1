@@ -4,34 +4,24 @@
         "content": [
             {
                 "type": "input_text",
-                "text": "read and paste the data from file located at route ./input/test1.txt\""
+                "text": "read and paste the data from file located at route ./input/test1.txt"
             }
         ]
     },
     {
-        "id": "rs_059d67f9dcbf0506016a2dafe4db8081a381b1cf4f87154f83",
-        "summary": [],
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqLa_mB4pJ0vmcvijxllL2KG68lVJH27Hvctjj48_M7z2WPW1EthuZa9tM1_cwgwIi3RrR50_tLTahfQBYEK2eJHfF7d6nLrFl9GQuKsvV2wHp5A3sDUgKAp8vdAP9PP8_Sa00WGfd5btrUsZQWZ4WVyE-f4feyA1Vhdjq0fhfdr-Xxmh85FVM6vfowekU5m791zCYqnMOan8_xiSpXsAstiIOB5vHkn3zeLQ58E2PPizkC3n1bUNMSeESZBsqbL5HvhNMnLxOyFKhj4CWTlTx8rtrCjF1Kn_6qi2Bmr4XnCOL73Wmp-YWsM9IzOHniG_2OPw-2x1W6_UXU1ZCuFeWCMntsJSRyR3je0w5p1YT41W8gfK1UR7SI4KzAozFKw7BpuaFCopKUsyESzAvZZeOw4qs-54Qn2Xt83BVwHOg9Ew97_RzPUmTwc-Xb1fuIREVKHS4NxTXNtMgS5ZT-j2brsBNpGaeZLOJV8TkvH9uF46ZlOgHHtB7YCvFFnfqPZ5KtNV8EP_gd742d5mbp6XHgCo2s5OxyNkoA9WMMh6207EiwcEDxdykXdI3Ac4PdQiNZ9aq6Fi3aGJjDUrPzxecLsssTcRHLQM61wAk55qfGYoSylkK1olLHjEJIlYkJyVwYVqfkruWjUA_lWjtMxQYzsijOodDnKkg-8HwhMZwUAQq-AaGdLgkhaBu2sJzZdKZFH7FBg7TGaEtqBV0bOWc_R_4ZPCFg1Qc6_37a4UNIMOsWAKguP3Dic2VbU3GgwR0ZtwoFX111vzWNy7baLc7TneR9VZmk550IqciJxZxuOS9LUo6wxDrEea0lJXJNmbGWZC_Eop-ZT89g838kZqYcx7O7gXR92IEY7dOR09hqG09Pk4vs0my64BEcw08vcB5O2eMpHjKpfJANJ97G99-d5Pt4yO0Unj5ifpCDXt_GhonyWVPXXg5d647RrqfolL59gMkyoezYeTv0igotSiKZfvyCJaSEf0BMfM2nP1k2wfmliQHciPSncrcx903agnvaSjdPXGM_r_U2b_nNRjTtFlsnw==",
-        "status": null
-    },
-    {
-        "arguments": "{\"path\":\"input/test1.txt\"}",
-        "call_id": "call_jy7s4xAyFWhvjlR5PyQeSnN3",
-        "name": "open_project_file",
         "type": "function_call",
-        "id": "fc_059d67f9dcbf0506016a2dafe6ea9481a39b8de9ba1ad9f0ea",
-        "namespace": null,
-        "status": "completed"
+        "call_id": "call_EwtdOGxtDJ5lIFJgKuEfvel7",
+        "name": "open_project_file",
+        "arguments": "{\"path\":\"input/test1.txt\"}"
     },
     {
         "type": "function_call_output",
-        "call_id": "call_jy7s4xAyFWhvjlR5PyQeSnN3",
+        "call_id": "call_EwtdOGxtDJ5lIFJgKuEfvel7",
         "output": "{\"path\": \"input/test1.txt\", \"content\": \"6872134526747623\"}"
     },
     {
-        "id": "msg_059d67f9dcbf0506006a2dafe8404081a3a258b3c03abbf2c2",
+        "type": "message",
+        "role": "assistant",
         "content": [
             {
                 "annotations": [],
@@ -39,10 +29,134 @@
                 "type": "output_text",
                 "logprobs": []
             }
-        ],
-        "role": "assistant",
-        "status": "completed",
+        ]
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "input_text",
+                "text": "read and paste the data from file located at route ./input/test1.txt"
+            }
+        ]
+    },
+    {
+        "type": "function_call",
+        "call_id": "call_yUp4WVjlZf5NLKMuxp7EfisU",
+        "name": "open_project_file",
+        "arguments": "{\"path\":\"input/test1.txt\"}"
+    },
+    {
+        "type": "function_call_output",
+        "call_id": "call_yUp4WVjlZf5NLKMuxp7EfisU",
+        "output": "{\"path\": \"input/test1.txt\", \"content\": \"6872134526747623\"}"
+    },
+    {
         "type": "message",
-        "phase": null
+        "role": "assistant",
+        "content": [
+            {
+                "annotations": [],
+                "text": "6872134526747623",
+                "type": "output_text",
+                "logprobs": []
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "input_text",
+                "text": "read and paste the data from file located at route ./input/test1.txt"
+            }
+        ]
+    },
+    {
+        "type": "function_call",
+        "call_id": "call_dmifuVVoSsIDQVE8Q2CmN7fh",
+        "name": "open_project_file",
+        "arguments": "{\"path\":\"input/test1.txt\"}"
+    },
+    {
+        "type": "function_call_output",
+        "call_id": "call_dmifuVVoSsIDQVE8Q2CmN7fh",
+        "output": "{\"path\": \"input/test1.txt\", \"content\": \"6872134526747623\"}"
+    },
+    {
+        "type": "message",
+        "role": "assistant",
+        "content": [
+            {
+                "annotations": [],
+                "text": "6872134526747623",
+                "type": "output_text",
+                "logprobs": []
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "input_text",
+                "text": "read and paste the data from file located at route ./input/test1.txt"
+            }
+        ]
+    },
+    {
+        "type": "function_call",
+        "call_id": "call_kjNyQrWqGc3AzxdXhIW0Il70",
+        "name": "open_project_file",
+        "arguments": "{\"path\":\"input/test1.txt\"}"
+    },
+    {
+        "type": "function_call_output",
+        "call_id": "call_kjNyQrWqGc3AzxdXhIW0Il70",
+        "output": "{\"path\": \"input/test1.txt\", \"content\": \"6872134526747623\"}"
+    },
+    {
+        "type": "message",
+        "role": "assistant",
+        "content": [
+            {
+                "annotations": [],
+                "text": "6872134526747623",
+                "type": "output_text",
+                "logprobs": []
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "input_text",
+                "text": "read and paste the data from file located at route ./input/test1.txt"
+            }
+        ]
+    },
+    {
+        "type": "function_call",
+        "call_id": "call_nC5PanOcgxQJjRSASCp9l58A",
+        "name": "open_project_file",
+        "arguments": "{\"path\":\"input/test1.txt\"}"
+    },
+    {
+        "type": "function_call_output",
+        "call_id": "call_nC5PanOcgxQJjRSASCp9l58A",
+        "output": "{\"path\": \"input/test1.txt\", \"content\": \"6872134526747623\"}"
+    },
+    {
+        "type": "message",
+        "role": "assistant",
+        "content": [
+            {
+                "annotations": [],
+                "text": "6872134526747623",
+                "type": "output_text",
+                "logprobs": []
+            }
+        ]
     }
 ]
